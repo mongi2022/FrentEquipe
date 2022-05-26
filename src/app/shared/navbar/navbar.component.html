@@ -1,0 +1,52 @@
+<!-- <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="">Monequipe</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="joueurs">Joueurs</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="match">Match</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="equipe">Equipe</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  -->
+<nav>
+	<input id="nav-toggle" type="checkbox">
+	<div class="logo"><strong>MonEquipe</strong></div>
+	<ul class="links">
+		<li><a routerLink="joueurs">Joueurs</a></li>
+		<li><a routerLink="match">Match</a></li>
+		<li><a routerLink="equipe">Equipe</a></li>
+
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line" ></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
+
+
+
+
+<router-outlet></router-outlet>

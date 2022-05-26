@@ -1,0 +1,25 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID MATCH</th>
+
+      <th scope="col">EQUIPE1</th>
+
+      <th scope="col">EQUIPE2</th>
+
+      <th scope="col">HORRAIRE</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let m of match">
+      <td>{{ m.id_match }}</td>
+
+      <td>{{ m.id_equipe1 }}</td>
+
+      <td>{{ m.id_equipe2 }}</td>
+
+      <td>{{ m.horraire }}</td>
+    </tr>
+  </tbody>
+</table>

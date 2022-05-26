@@ -1,0 +1,25 @@
+<div class="container m-10">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+
+        <th scope="col">name</th>
+
+        <th scope="col">email</th>
+
+        <th scope="col">adresse</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let joueur of joueurs">
+        <th scope="row">{{ joueur.id_joueur }}</th>
+
+        <td>{{ joueur.nom_et_prenom }}</td>
+
+        <td>{{ joueur.equipe }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

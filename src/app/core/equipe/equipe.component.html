@@ -1,0 +1,20 @@
+<div class="container m-5">
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id_equipe</th>
+        <th scope="col">Nom_equipe</th>
+     
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of equipe">
+      
+        <td>{{e.id_equipe}}}</td>
+        <td>{{e.nom_equipe}}</td>
+      </tr>
+
+     
+    </tbody>
+  </table>
+</div>
